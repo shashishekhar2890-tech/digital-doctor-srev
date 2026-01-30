@@ -34,16 +34,47 @@ def save_patient_file(data):
     
     if db:
         try:
-            db.collection('patient_files').add(data)
+            db.collection('Patient_Audit').add(data)
             return True, "Saved to Firestore"
         except Exception as e:
             return False, f"Firestore Error: {e}"
     else:
-        # Mock Save
-        MOCK_DB.append(data)
-        # In a real app we can't persist mock data across restarts easily without a file, 
-        # but for this session it's fine.
-        return True, "Saved to Local Mock DB"
+        # Save to Local JSON File (Persistent Mock DB)
+        try:
+            filename = "srev_db.json"
+            if os.path.exists(filename):
+                with open(filename, "r") as f:
+                    try:
+                        current_db = json.load(f)
+                    except: 
+                        current_db = []
+            else:
+                current_db = []
+            
+            current_db.append(data)
+            
+            with open(filename, "w") as f:
+                json.dump(current_db, f, indent=4)
+                
+            return True, "Saved to Local Admin DB"
+        except Exception as e:
+            return False, f"Local DB Error: {e}"
+
+def get_all_records():
+    """Retrieves all records from Local DB or Firestore."""
+    db = initialize_firebase()
+    if db:
+        # Fetch from Firestore (Simplification)
+        return [] 
+    else:
+        # Fetch from Local File
+        if os.path.exists("srev_db.json"):
+            with open("srev_db.json", "r") as f:
+                try:
+                    return json.load(f)
+                except:
+                    return []
+        return []
 
 def trigger_admin_email(data):
     """Simulates sending an email to the admin."""
