@@ -1,0 +1,95 @@
+/* Main Background and Font */
+.stApp {
+    background-color: #f0f4f8; /* Soft medical blue-white */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Titles */
+h1, h2, h3 {
+    color: #0b2545; /* Deep Navy Blue */
+    font-weight: 700;
+}
+
+/* Cards / Containers */
+div[data-testid="stMetric"], .css-1r6slb0, .stCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Subtle shadow */
+    border: 1px solid #e1e8ed;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #007bff; /* Medical Blue */
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.4);
+}
+
+/* Inputs */
+.stTextInput > div > div > input {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.scanning-text {
+    color: #007bff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 1.5s infinite;
+}
+
+/* Gated Content Blur */
+.blur-content {
+    filter: blur(8px);
+    user-select: none;
+    pointer-events: none;
+    opacity: 0.7;
+    transition: filter 0.5s ease;
+}
+
+/* Health Score Circle (Custom CSS for Streamlit Metric if needed) */
+.health-score {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #28a745; /* Success Green */
+}
+
+/* Section Headers */
+.section-header {
+    border-bottom: 2px solid #e1e8ed;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #4a5568;
+}
+
+/* Symptoms List */
+.symptom-item {
+    color: #dc3545; /* Red for symptoms */
+    padding: 8px;
+    background-color: #fff5f5;
+    border-left: 4px solid #dc3545;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
