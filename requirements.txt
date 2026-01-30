@@ -4,3 +4,7 @@ beautifulsoup4
 pandas
 plotly
 python-dotenv
+reportlab
+firebase-admin
+altair
+fake-useragent

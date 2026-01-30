@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+pip install -r requirements.txt
+echo Starting SREV Digital Health Audit App...
+python -m streamlit run app.py
+pause

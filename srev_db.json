@@ -1,0 +1,382 @@
+[
+    {
+        "hospital_info": {
+            "name": "srev evolution",
+            "website": "https://srevlabs.com/",
+            "socials": {
+                "insta": "https://www.instagram.com/srevevolution/",
+                "fb": "https://www.facebook.com/profile.php?id=61585369401745"
+            },
+            "gmb": "https://www.google.com/maps/place/SREV+EVOLUTION+PRIVATE+LIMITED/data=!4m2!3m1!1s0x0:0x2a810a8aa9d80e71?sa=X&ved=1t:2428&ictx=111"
+        },
+        "health_score": 80,
+        "digital_biopsy": {
+            "structural_integrity": {
+                "score": 82,
+                "metrics": {
+                    "server_response_time": "1.36s",
+                    "total_resources": 75,
+                    "scripts": 24,
+                    "images_loaded": 20,
+                    "page_title": "SREV Evolution Pvt. Ltd.",
+                    "meta_desc_len": 0,
+                    "h1_count": 1,
+                    "h2_count": 10
+                },
+                "symptoms": [
+                    "CRITICAL: Missing Meta Description."
+                ]
+            },
+            "public_pulse": {
+                "score": 85,
+                "metrics": {
+                    "ig_meta_data": "8 Followers, 1 Following, 31 Posts",
+                    "ig_followers": "8",
+                    "ig_posts": "31",
+                    "fb_meta_data": "SREV Evolution - AI & Digital Services. 3 talking ...",
+                    "gmb_name_found": " Google Maps ",
+                    "status": "Verified (Ratings Hidden)"
+                },
+                "symptoms": [
+                    "Rating hidden from public scan."
+                ]
+            },
+            "conversion_circulation": {
+                "score": 100,
+                "metrics": {
+                    "phone_link": "Detected",
+                    "booking_keywords": "Detected",
+                    "chat_widget": "Detected"
+                },
+                "symptoms": []
+            },
+            "meta_profile": {
+                "score": 50,
+                "metrics": {
+                    "facebook_pixel": false,
+                    "google_analytics": false
+                },
+                "symptoms": [
+                    "No Facebook Pixel.",
+                    "No Google Analytics."
+                ]
+            }
+        },
+        "created_at": "2026-01-30T23:43:04.676251",
+        "patient_id": "pat_1769796784"
+    },
+    {
+        "hospital_info": {
+            "name": "srev evolution",
+            "website": "https://srevlabs.com/",
+            "socials": {
+                "insta": "https://www.instagram.com/srevevolution/",
+                "fb": "https://www.facebook.com/profile.php?id=61585369401745"
+            },
+            "gmb": "https://www.google.com/maps/place/SREV+EVOLUTION+PRIVATE+LIMITED/data=!4m2!3m1!1s0x0:0x2a810a8aa9d80e71?sa=X&ved=1t:2428&ictx=111"
+        },
+        "health_score": 60,
+        "digital_biopsy": {
+            "structural_integrity": {
+                "score": 82,
+                "metrics": {
+                    "server_response_time": "1.31s",
+                    "total_resources": 75,
+                    "scripts": 24,
+                    "images_loaded": 20,
+                    "page_title": "SREV Evolution Pvt. Ltd.",
+                    "meta_desc_len": 0,
+                    "h1_count": 1,
+                    "h2_count": 10
+                },
+                "symptoms": [
+                    "CRITICAL: Missing Meta Description."
+                ]
+            },
+            "public_pulse": {
+                "score": 20,
+                "metrics": {
+                    "ig_status": "Active (Login Block)",
+                    "gmb_name_found": ""
+                },
+                "symptoms": [
+                    "Facebook Page Unreachable."
+                ]
+            },
+            "conversion_circulation": {
+                "score": 100,
+                "metrics": {
+                    "phone_link": "Detected",
+                    "booking_keywords": "Detected",
+                    "chat_widget": "Detected"
+                },
+                "symptoms": []
+            },
+            "meta_profile": {
+                "score": 50,
+                "metrics": {
+                    "facebook_pixel": false,
+                    "google_analytics": false
+                },
+                "symptoms": [
+                    "No Facebook Pixel.",
+                    "No Google Analytics."
+                ]
+            }
+        },
+        "created_at": "2026-01-30T23:45:56.935172",
+        "patient_id": "pat_1769796956"
+    },
+    {
+        "hospital_info": {
+            "name": "srev evolution",
+            "website": "https://srevlabs.com/",
+            "socials": {
+                "insta": "https://www.instagram.com/srevevolution/",
+                "fb": "https://www.facebook.com/profile.php?id=61585369401745"
+            },
+            "gmb": "https://www.google.com/maps/place/SREV+EVOLUTION+PRIVATE+LIMITED/data=!4m2!3m1!1s0x0:0x2a810a8aa9d80e71?sa=X&ved=1t:2428&ictx=111"
+        },
+        "health_score": 78,
+        "digital_biopsy": {
+            "structural_integrity": {
+                "score": 82,
+                "metrics": {
+                    "server_response_time": "1.06s",
+                    "total_resources": 75,
+                    "scripts": 24,
+                    "images_loaded": 20,
+                    "page_title": "SREV Evolution Pvt. Ltd.",
+                    "meta_desc_len": 0,
+                    "h1_count": 1,
+                    "h2_count": 10
+                },
+                "symptoms": [
+                    "CRITICAL: Missing Meta Description."
+                ]
+            },
+            "public_pulse": {
+                "score": 80,
+                "metrics": {
+                    "ig_status": "Active (Login Block)",
+                    "fb_meta_data": "SREV Evolution - AI & Digital Services. 3 talking ...",
+                    "gmb_name_found": " Google Maps ",
+                    "status": "Verified (Ratings Hidden)"
+                },
+                "symptoms": [
+                    "Rating hidden from public scan."
+                ]
+            },
+            "conversion_circulation": {
+                "score": 100,
+                "metrics": {
+                    "phone_link": "Detected",
+                    "booking_keywords": "Detected",
+                    "chat_widget": "Detected"
+                },
+                "symptoms": []
+            },
+            "meta_profile": {
+                "score": 50,
+                "metrics": {
+                    "facebook_pixel": false,
+                    "google_analytics": false
+                },
+                "symptoms": [
+                    "No Facebook Pixel.",
+                    "No Google Analytics."
+                ]
+            }
+        },
+        "created_at": "2026-01-30T23:46:34.147771",
+        "patient_id": "pat_1769796994"
+    },
+    {
+        "hospital_info": {
+            "name": "srev evolution",
+            "website": "https://srevlabs.com/",
+            "socials": {
+                "insta": "https://www.instagram.com/srevevolution/",
+                "fb": "https://www.facebook.com/profile.php?id=61585369401745"
+            },
+            "gmb": "https://www.google.com/maps/place/SREV+EVOLUTION+PRIVATE+LIMITED/data=!4m2!3m1!1s0x0:0x2a810a8aa9d80e71?sa=X&ved=1t:2428&ictx=111"
+        },
+        "health_score": 62,
+        "digital_biopsy": {
+            "structural_integrity": {
+                "score": 82,
+                "metrics": {
+                    "server_response_time": "1.28s",
+                    "total_resources": 75,
+                    "scripts": 24,
+                    "images_loaded": 20,
+                    "page_title": "SREV Evolution Pvt. Ltd.",
+                    "meta_desc_len": 0,
+                    "h1_count": 1,
+                    "h2_count": 10
+                },
+                "symptoms": [
+                    "CRITICAL: Missing Meta Description."
+                ]
+            },
+            "public_pulse": {
+                "score": 25,
+                "metrics": {
+                    "ig_meta_data": "8 Followers, 1 Following, 31 Posts",
+                    "ig_followers": "8",
+                    "ig_posts": "31",
+                    "gmb_name_found": ""
+                },
+                "symptoms": [
+                    "Facebook Page Unreachable."
+                ]
+            },
+            "conversion_circulation": {
+                "score": 100,
+                "metrics": {
+                    "phone_link": "Detected",
+                    "booking_keywords": "Detected",
+                    "chat_widget": "Detected"
+                },
+                "symptoms": []
+            },
+            "meta_profile": {
+                "score": 50,
+                "metrics": {
+                    "facebook_pixel": false,
+                    "google_analytics": false
+                },
+                "symptoms": [
+                    "No Facebook Pixel.",
+                    "No Google Analytics."
+                ]
+            }
+        },
+        "created_at": "2026-01-30T23:47:10.525743",
+        "patient_id": "pat_1769797030"
+    },
+    {
+        "hospital_info": {
+            "name": "srev evolution",
+            "website": "https://srevlabs.com/",
+            "socials": {
+                "insta": "https://www.instagram.com/srevevolution/",
+                "fb": "https://www.facebook.com/profile.php?id=61585369401745"
+            },
+            "gmb": "https://www.google.com/maps/place/SREV+EVOLUTION+PRIVATE+LIMITED/data=!4m2!3m1!1s0x0:0x2a810a8aa9d80e71?sa=X&ved=1t:2428&ictx=111"
+        },
+        "health_score": 68,
+        "digital_biopsy": {
+            "structural_integrity": {
+                "score": 82,
+                "metrics": {
+                    "server_response_time": "1.18s",
+                    "total_resources": 75,
+                    "scripts": 24,
+                    "images_loaded": 20,
+                    "page_title": "SREV Evolution Pvt. Ltd.",
+                    "meta_desc_len": 0,
+                    "h1_count": 1,
+                    "h2_count": 10
+                },
+                "symptoms": [
+                    "CRITICAL: Missing Meta Description."
+                ]
+            },
+            "public_pulse": {
+                "score": 45,
+                "metrics": {
+                    "ig_status": "Active (Login Block)",
+                    "fb_meta_data": "SREV Evolution - AI & Digital Services. 3 talking ...",
+                    "gmb_name_found": ""
+                },
+                "symptoms": []
+            },
+            "conversion_circulation": {
+                "score": 100,
+                "metrics": {
+                    "phone_link": "Detected",
+                    "booking_keywords": "Detected",
+                    "chat_widget": "Detected"
+                },
+                "symptoms": []
+            },
+            "meta_profile": {
+                "score": 50,
+                "metrics": {
+                    "facebook_pixel": false,
+                    "google_analytics": false
+                },
+                "symptoms": [
+                    "No Facebook Pixel.",
+                    "No Google Analytics."
+                ]
+            }
+        },
+        "created_at": "2026-01-30T23:47:42.070980",
+        "patient_id": "pat_1769797062"
+    },
+    {
+        "hospital_info": {
+            "name": "srev evolution",
+            "website": "https://srevlabs.com/",
+            "socials": {
+                "insta": "https://www.instagram.com/srevevolution/",
+                "fb": "https://www.facebook.com/profile.php?id=61585369401745"
+            },
+            "gmb": "https://www.google.com/maps/place/SREV+EVOLUTION+PRIVATE+LIMITED/data=!4m2!3m1!1s0x0:0x2a810a8aa9d80e71?sa=X&ved=1t:2428&ictx=111"
+        },
+        "health_score": 69,
+        "digital_biopsy": {
+            "structural_integrity": {
+                "score": 82,
+                "metrics": {
+                    "server_response_time": "1.74s",
+                    "total_resources": 75,
+                    "scripts": 24,
+                    "images_loaded": 20,
+                    "page_title": "SREV Evolution Pvt. Ltd.",
+                    "meta_desc_len": 0,
+                    "h1_count": 1,
+                    "h2_count": 10
+                },
+                "symptoms": [
+                    "CRITICAL: Missing Meta Description."
+                ]
+            },
+            "public_pulse": {
+                "score": 50,
+                "metrics": {
+                    "ig_meta_data": "8 Followers, 1 Following, 31 Posts",
+                    "ig_followers": "8",
+                    "ig_posts": "31",
+                    "fb_meta_data": "SREV Evolution - AI & Digital Services. 3 talking ...",
+                    "gmb_name_found": ""
+                },
+                "symptoms": []
+            },
+            "conversion_circulation": {
+                "score": 100,
+                "metrics": {
+                    "phone_link": "Detected",
+                    "booking_keywords": "Detected",
+                    "chat_widget": "Detected"
+                },
+                "symptoms": []
+            },
+            "meta_profile": {
+                "score": 50,
+                "metrics": {
+                    "facebook_pixel": false,
+                    "google_analytics": false
+                },
+                "symptoms": [
+                    "No Facebook Pixel.",
+                    "No Google Analytics."
+                ]
+            }
+        },
+        "created_at": "2026-01-30T23:48:10.564220",
+        "patient_id": "pat_1769797090"
+    }
+]
