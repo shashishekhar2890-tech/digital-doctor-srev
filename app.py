@@ -78,9 +78,6 @@ if not st.session_state.audit_submitted:
                 
                 **Don't leave your growth to chance. Consult the Digital Doctors now. 📞 Call/WhatsApp: +91-8860800507**
             """)
-else:
-    st.info("👈 Enter patient details in the sidebar to begin biometric scan.")
-
 # Audit Execution & Report Display
 if st.session_state.audit_submitted and not st.session_state.audit_results:
     # Run Animation
