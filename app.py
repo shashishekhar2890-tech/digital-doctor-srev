@@ -1,9 +1,14 @@
 import streamlit as st
-import utils.audit_logic as audit
-import utils.pdf_generator as pdf_gen
 import json
-import utils.firebase_handler as fb
 import ui_components as ui
+
+try:
+    import utils.audit_logic as audit
+    import utils.pdf_generator as pdf_gen
+    import utils.firebase_handler as fb
+except ImportError as e:
+    st.error(f"⚠️ Import Error: {e}")
+    st.stop()
 
 # Page Config
 st.set_page_config(
